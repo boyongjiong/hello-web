@@ -112,6 +112,7 @@ X-Powered_By:ASP.NET
 > 2.`GET`提交的数据大小有限制（因为**浏览器对`URL`的长度有限制**），而POST方法提交的数据没有限制
 
 > 3.`GET`方式需要使用`Request.QuerryString`来取得变量的值，而`POST`方式通过Request.Form来获取变量的值
+
 > 4.`GET`方式提交数据，会带来**安全问题**，比如一个登录界面，通过`GET`方式提交数据时，用户名和密码将出现在`URL`上，如果页面可以被缓存或者其他人可以访问这台机器，就可以从历史记录获得该用户的账号和密码。
 
 [http请求的get与post](https://www.zybuluo.com/yangfch3/note/123476)
